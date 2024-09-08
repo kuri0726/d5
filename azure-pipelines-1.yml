@@ -30,3 +30,6 @@ steps:
     PathtoPublish: '$(build.artifactstagingdirectory)'
     ArtifactName: 'warfile'
     publishLocation: 'Container'
+
+variables:
+  AZP_AGENT_CLEANUP_PSMODULES_IN_POWERSHELL: "true"
